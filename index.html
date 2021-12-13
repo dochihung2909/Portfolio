@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header" style="background-image: url(./assets/img/slider.jpg);">
+            <div class="navbar">
+                <div class="grid wide">
+                    <div class="navbar__container">
+                        <div class="row"> 
+                            <div class="col l-3 m-3">
+                                <div class="navbar__logo">
+                                    <a href="#" class="navbar__logo-link">Tiên Nóc Nhà</a>
+                                </div>
+                            </div> 
+                            <div class="col l-6 m-6">
+                                <ul class="navbar__list">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link navbar__item-link--actived">Home</a>
+                                    </li>
+                                    <li class="navbar__item">
+                                        <a href="#about" class="navbar__item-link">About</a>
+                                    </li>
+                                    <li class="navbar__item">
+                                        <a href="#portfolio" class="navbar__item-link">Portfolio</a>
+                                    </li>
+                                    <!-- <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">Blog</a>
+                                    </li> -->
+                                    <li class="navbar__item">
+                                        <a href="#contact" class="navbar__item-link">Contact</a>
+                                    </li>
+                                </ul>  
+                                <label for="navbar-checked" class="navbar-mobile__label">
+                                    <i class="fas fa-bars"></i>
+                                </label>
+                                <input type="checkbox" name="" id="navbar-checked" class="navbar-mobile__checked">
+                                <div class="navbar__mobile">
+                                    <div class="grid wide">
+                                        <div class="row">       
+                                            <div class="col l-12 m-12 c-12">
+                                                <ul class="navbar-mobile__list">
+                                                    <li class="navbar-mobile__item">
+                                                        <a href="#" class="navbar__item-link navbar__item-link--actived">Home</a>
+                                                    </li>
+                                                    <li class="navbar-mobile__item">
+                                                        <a href="#about" class="navbar__item-link">About</a>
+                                                    </li>
+                                                    <li class="navbar-mobile__item">
+                                                        <a href="#portfolio" class="navbar__item-link">Portfolio</a>
+                                                    </li>
+                                                    <!-- <li class="navbar-mobile__item">
+                                                        <a href="" class="navbar__item-link">Blog</a>
+                                                    </li> -->
+                                                    <li class="navbar-mobile__item">
+                                                        <a href="#contact" class="navbar__item-link">Contact</a>
+                                                    </li> 
+                                                    <li class="navbar-mobile__item">
+                                                        <div class="navbar-mobile__lang">
+                                                            <button class="navbar__lang-btn">En</button>
+                                                        </div>
+                                                    </li>
+                                                </ul>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col l-3 m-3">
+                                <div class="navbar__lang">
+                                    <button class="navbar__lang-btn">En</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="slider__text">
+                <span class="slider__header">Welcome</span>
+                <h1 class="slider__body">I'm <span class="slider__name">Do Chi Hung</span></h1>
+                <div class="slider__bottom">Web Developer</div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <!-- About -->
+            <div id="about" class="page__about">
+                <div class="grid wide">
+                    <div class="about__container">
+                        <div class="row"> 
+                            <div class="col l-5 m-12 c-12">
+                                <div class="about-wrapped">
+                                    <div class="about__left">
+                                        <img src="./assets/img/profile.jpg" alt="" class="about__img">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col l-7 m-12 c-12">
+                                <div class="about__info">
+                                    <div class="about__header">
+                                        <p class="about__name">Do Chi Hung</p>
+                                        <p class="about__career">Web Developer</p>
+                                    </div>
+                                    <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae architecto sit, repellat adipisci minima quae rem expedita eum quas iste modi ex dolorum quis accusantium ut quibusdam, vel reiciendis blanditiis?</p>
+                                </div>
+                                <ul class="about__address">
+                                    <li class="about__address-item"><b>Form: </b> 
+                                        An Giang, Viet Nam</li>
+                                    <li class="about__address-item"><b>Live In: </b>  
+                                        An Giang, Viet Nam</li>
+                                    <li class="about__address-item"><b>Age: </b>  
+                                        18</li>
+                                    <li class="about__address-item"><b>Gender: </b>  
+                                        Male</li>
+                                </ul>
+                                <div class="about__download">
+                                    <button type="submit" class="btn__submit about__dowload-btn">Download My CV</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certify"> 
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="education">
+                                    <h1 class="certify__title title">Education</h1>
+                                    <ul class="certify__list">
+                                        <li class="certify__item certify__item--current">
+                                            <h2 class="certify__item-title certify__item-title--current">2021</h2>
+                                            <div class="certify__item-detail">
+                                                <h5 class="detail__header">Specialize of course</h5>
+                                                <p class="detail__sub">University of Study</p>
+                                                <p class="detail__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque esse ipsam molestias quae magni recusandae ducimus commodi quibusdam quam deleniti tempore</p>
+                                            </div>
+                                        </li>
+                                        <li class="certify__item">
+                                            <h2 class="certify__item-title">2021</h2>
+                                            <div class="certify__item-detail">
+                                                <h5 class="detail__header">Specialize of course</h5>
+                                                <p class="detail__sub">University of Study</p>
+                                                <p class="detail__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque esse ipsam molestias quae magni recusandae ducimus commodi quibusdam quam deleniti tempore</p>
+                                            </div>
+                                        </li>
+                                        <li class="certify__item">
+                                            <h2 class="certify__item-title">2021</h2>
+                                            <div class="certify__item-detail">
+                                                <h5 class="detail__header">Specialize of course</h5>
+                                                <p class="detail__sub">University of Study</p>
+                                                <p class="detail__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque esse ipsam molestias quae magni recusandae ducimus commodi quibusdam quam deleniti tempore</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="experience">
+                                    <h1 class="certify__title title">Education</h1> 
+                                    <ul class="certify__list">
+                                        <li class="certify__item certify__item--current">
+                                            <h2 class="certify__item-title certify__item-title--current">2021</h2>
+                                            <div class="certify__item-detail">
+                                                <h5 class="detail__header">Specialize of course</h5>
+                                                <p class="detail__sub">University of Study</p>
+                                                <p class="detail__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque esse ipsam molestias quae magni recusandae ducimus commodi quibusdam quam deleniti tempore</p>
+                                            </div>
+                                        </li>
+                                        <li class="certify__item">
+                                            <h2 class="certify__item-title">2021</h2>
+                                            <div class="certify__item-detail">
+                                                <h5 class="detail__header">Specialize of course</h5>
+                                                <p class="detail__sub">University of Study</p>
+                                                <p class="detail__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque esse ipsam molestias quae magni recusandae ducimus commodi quibusdam quam deleniti tempore</p>
+                                            </div>
+                                        </li>
+                                        <li class="certify__item">
+                                            <h2 class="certify__item-title">2021</h2>
+                                            <div class="certify__item-detail">
+                                                <h5 class="detail__header">Specialize of course</h5>
+                                                <p class="detail__sub">University of Study</p>
+                                                <p class="detail__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque esse ipsam molestias quae magni recusandae ducimus commodi quibusdam quam deleniti tempore</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service -->
+            <div class="page__service">
+                <div class="grid wide">
+                    <div class="service__container"> 
+                        <div class="service__header">
+                            <h2 class="service__top badge">Service</h2>
+                            <div class="service__title title">What can I do?</div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-3 m-6">
+                                <div class="service__wrapped">
+                                    <div class="service__icon"><i class="fas fa-fill-drip"></i></i></div>
+                                    <div class="service__caption">
+                                        <h2 class="service__caption-header">Web Design</h3>
+                                        <p class="service__caption-body">There are many variations of passages of Lorem Ipsum available</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6">
+                                <div class="service__wrapped">
+                                    <div class="service__icon"><i class="fas fa-search"></i></div>
+                                    <div class="service__caption">
+                                        <h2 class="service__caption-header">Web Design</h3>
+                                        <p class="service__caption-body">There are many variations of passages of Lorem Ipsum available</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6">
+                                <div class="service__wrapped">
+                                    <div class="service__icon"><i class="fas fa-bezier-curve"></i></div>
+                                    <div class="service__caption">
+                                        <h2 class="service__caption-header">Web Development</h3>
+                                        <p class="service__caption-body">There are many variations of passages of Lorem Ipsum available</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6">
+                                <div class="service__wrapped">
+                                    <div class="service__icon"><i class="fas fa-desktop"></i></div>
+                                    <div class="service__caption">
+                                        <h2 class="service__caption-header">Web Development</h3>
+                                        <p class="service__caption-body">There are many variations of passages of Lorem Ipsum available</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My work -->
+            <div id="portfolio" class="page__product">
+                <div class="grid wide">
+                    <div class="product__container">
+                        <div class="product__header">
+                            <h2 class="product__badge badge">Portfolio</h2>
+                            <h2 class="product__title title">See my work</h2>
+                        </div> 
+                        <div class="row">
+                            <div class="l-o-4"></div>
+                            <div class="l-4 m-12 c-12">
+                                <div class="product__wrapped">
+                                    <button class="product__btn btn selected">All</button> 
+                                    <button class="product__btn btn">Template</button>
+                                    <button class="product__btn btn">Web</button>
+                                    <button class="product__btn btn">UX/UI</button>
+                                </div>
+                            </div>
+                            <div class="l-o-4"></div>
+                        </div>
+                        <div class="product__body">
+                            <div class="row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="product__item">
+                                        <a href="https://dhungts.github.io/vuighe-clone/" class="product__item-link">
+                                            <img src="./assets/img/product_1.jpg" alt="" class="product__img">
+                                            <div class="product__text">
+                                                <h2 class="product__name">Vui Ghê Clone</h2>
+                                                <p class="product__desc">- Film, Anime</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="product__item">
+                                        <a href="https://dochihung2909.github.io/Calculator/" class="product__item-link">
+                                            <img src="./assets/img/product_2.jpg" alt="" class="product__img">
+                                            <div class="product__text">
+                                                <h2 class="product__name">Calculator</h2>
+                                                <p class="product__desc">- Calculator</p>
+                                            </div>
+                                        </a>
+                                    </div> 
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="product__item">
+                                        <a href="" class="product__item-link">
+                                            <img src="./assets/img/product_3.jpg" alt="" class="product__img">
+                                            <div class="product__text">
+                                                <h2 class="product__name">The Band Clone</h2>
+                                                <p class="product__desc">- Band, OnePage Web</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="product__item">
+                                        <a href="" class="product__item-link">
+                                            <img src="./assets/img/product_4.jpg" alt="" class="product__img">
+                                            <div class="product__text">
+                                                <h2 class="product__name">Shopee Clone</h2>
+                                                <p class="product__desc">- Shop user</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div id="contact" class="page__contact">
+                <div class="grid wide">
+                    <div class="contact__container">
+                        <div class="contact__header">
+                            <h2 class="contact__badge badge">Contact</h2>
+                            <h2 class="contact__title title">Get in touch</h2>
+                        </div>
+                        <div class="contact__body">
+                            <div class="row">
+                                <div class="col l-7 m-12 c-12">
+                                    <div class="contact__map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9250508686596!2d106.67491891526049!3d10.817047661399378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zxJDhuqFpIGjhu41jIE3hu58gVFAuSENN!5e0!3m2!1svi!2s!4v1639126535971!5m2!1svi!2s"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col l-5 m-12 c-12">
+                                    <div class="contact__input">
+                                        <div class="row"> 
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="contact__name-input">
+                                                    <input type="text" class="contact-input__form" placeholder="Your name">
+                                                </div>
+                                            </div>
+                                            <div class="col l-6 m-6 c-6">
+                                                <div class="contact__email-input">
+                                                    <input type="email" class="contact-input__form" placeholder="Email Address">
+                                                </div>
+                                            </div>
+                                            <div class="col l-6 m-6 c-6">
+                                                <div class="contact__email-input">
+                                                    <input type="text" class="contact-input__form" placeholder="Subject">
+                                                </div>
+                                            </div>
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="contact__mess-input">
+                                                    <textarea class="contact-input__form" rows="6" placeholder="Enter message here.."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col l-12 c-12">
+                                                <button type="submit" class="contact__btn btn__submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <h2 class="footer__title">Virtual Folio</h2>
+                <div class="footer__body">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12"> 
+                            <div class="footer__body-wrapped">
+                                <h1 class="body__title">Where to find me</h1> 
+                                <p class="body__address">371 Nguyễn Kiệm, Phường 3, Gò Vấp, Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div> 
+                        <div class="l-o-2"></div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="footer__body-wrapped">
+                                <h1 class="body__title">Follow me</h1>
+                                <ul class="body__list">
+                                    <li class="body__list-item">
+                                        <a href="" class="body__item-link">Instagram</a>
+                                    </li>
+                                    <li class="body__list-item">
+                                        <a href="" class="body__item-link">Facebook</a>
+                                    </li>
+                                    <li class="body__list-item">
+                                        <a href="" class="body__item-link">Zalo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="footer__body-wrapped">
+                                <h1 class="body__title">Contact me</h1>
+                                <ul class="body__list">
+                                    <li class="body__list-item">
+                                        <a href="" class="body__item-link">thestarss321@gmail.com</a>
+                                    </li>
+                                    <li class="body__list-item">
+                                        <a href="" class="body__item-link">unknow@gmail.com</a>
+                                    </li>
+                                    <li class="body__list-item">
+                                        <a href="" class="body__item-link">+84352147896</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                </div> 
+                <div class="footer__copyright">
+                    <p class="copyright__text">Copyright ©2021 by Do Chi Hung | This template is made with <i class="far fa-heart copyright-icon"></i> by <a href="https://macodeid.com/" class="copyright-link">MACode ID</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Ipad pro */
+@media (min-width: 1024px) and (max-width: 1200px) { 
+    .certify {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+
+@media (max-width: 1023px)  {
+    .app {
+        overflow: hidden;
+    } 
+
+    .about__container,
+    .footer,
+    .page__contact,
+    .certify {
+        padding-left: 24px;
+        padding-right: 24px;
+    } 
+
+    .navbar__lang,
+    .navbar__list {
+        display: none;
+    }  
+    
+    .navbar-mobile__label {
+        display: block;
+    }
+    
+    .navbar__container {
+        padding: 6px 10px;
+    }
+} 
+
+/* < Ipad */
+@media (max-width: 768px) {
+    .grid {
+        width: 720px;
+        width: 100%;
+    }  
+}
+
+@media (max-width: 739px) {  
+    .body__title{
+        width: 100%;
+    }
+
+    .certify__list {
+        padding-right: 0;
+    }
+
+    .certify,
+    .about__container, 
+    .page__contact,
+    .footer,
+    .certify {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact__btn {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .about__dowload-btn {
+        width: 100%;
+    }
+}
